@@ -7,8 +7,8 @@ import telefone.AparelhoTelefonico;
 public class CelulariPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet {
 
 	@Override
-	public void exibirPagina() {
-		System.out.println("Exibindo página web via iPhone");
+	public void exibirPagina(String url) {
+		System.out.println("Exibindo " + url + " via iPhone");
 	}
 
 	@Override
@@ -42,8 +42,8 @@ public class CelulariPhone implements ReprodutorMusical, AparelhoTelefonico, Nav
 	}
 
 	@Override
-	public void tocar() {
-		System.out.println("Tocando música no iPhone");
+	public void tocar(String musica) {
+		System.out.println("Tocando " + musica + " no iPhone");
 		
 	}
 

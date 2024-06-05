@@ -2,7 +2,7 @@ package ipod;
 
 public interface ReprodutorMusical {
 	
-	public void tocar();
+	public void tocar(String musica);
 	
 	public void pausar();
 	

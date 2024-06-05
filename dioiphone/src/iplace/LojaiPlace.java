@@ -11,9 +11,11 @@ public class LojaiPlace {
 		
 		iPhone.atender();
 		
+		iPhone.exibirPagina("twitter.com");
+		
 		iPhone.adicionarNovaAba();
 		
-		iPhone.tocar();
+		iPhone.tocar("God's Menu");
 
 	}
 
