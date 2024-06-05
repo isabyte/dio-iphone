@@ -2,7 +2,7 @@ package telefone;
 
 public interface AparelhoTelefonico {
 
-	public void ligar();
+	public void ligar(String numero);
 	
 	public void atender();
 	

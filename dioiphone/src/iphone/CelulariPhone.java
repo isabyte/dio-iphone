@@ -24,8 +24,8 @@ public class CelulariPhone implements ReprodutorMusical, AparelhoTelefonico, Nav
 	}
 
 	@Override
-	public void ligar() {
-		System.out.println("Ligando iPhone");
+	public void ligar(String numero) {
+		System.out.println("Ligando para " + numero + " via iPhone");
 		
 	}
 
